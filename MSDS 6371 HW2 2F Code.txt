@@ -1,0 +1,18 @@
+
+> Fired = c(34, 37, 37, 38, 41, 42, 43, 44, 44, 45, 45, 45, 46, 48, 49, 53, 53, 54, 54, 55, 56) 
+> 
+> Not_fired = c(27, 33, 36, 37, 38, 38, 39, 42, 42, 43, 43, 44, 44, 44, 45, 45, 45, 45, 46, 46, 47, 47, 48, 48, 49, 49, 51, 51, 52, 54) 
+> 
+> t.test(x = Fired, y = Not_fired, conf.int = .95, var.equal = TRUE, alternative = "two.sided") 
+
+        Two Sample t-test
+
+data:  Fired and Not_fired
+t = 1.0991, df = 49, p-value = 0.2771
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.593635  5.441254
+sample estimates:
+mean of x mean of y 
+ 45.85714  43.93333 
+

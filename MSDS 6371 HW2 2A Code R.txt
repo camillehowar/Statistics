@@ -1,0 +1,15 @@
+
+
+> sample = c(1.7, 1.6, 1.5, 2.0, 2.3, 1.6, 1.6, 1.8, 1.5, 1.7, 1.2, 1.4, 1.6, 1.6, 1.6)
+> t.test(x=sample, mu = 1.8, conf.int = "TRUE", alternative = "two.sided")
+
+	One Sample t-test
+
+data:  sample
+t = -2.3457, df = 14, p-value = 0.03424
+alternative hypothesis: true mean is not equal to 1.8
+95 percent confidence interval:
+ 1.506466 1.786868
+sample estimates:
+mean of x 
+ 1.646667 
